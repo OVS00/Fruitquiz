@@ -1,0 +1,82 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- The style of the header. -->
+    <style name="headerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/headerTextSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#E0E0E0</item>
+        <item name="android:layout_margin">@dimen/headerMargin</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingLeft">@dimen/headerPaddinLeft</item>
+    </style>
+    <!-- The style of the questions -->
+    <style name="questionStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/questionTextSize</item>
+        <item name="android:layout_marginLeft">@dimen/radioGroupMarginleft</item>
+        <item name="android:layout_marginRight">@dimen/questionMarginRight</item>
+        <item name="android:layout_marginTop">@dimen/questionMarginTop</item>
+    </style>
+    <!-- The style of the radio buttons -->
+    <style name="radioButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/radio_bk_color</item>
+        <item name="android:buttonTint">@color/radio_color</item>
+        <item name="android:paddingRight">@dimen/radioPadRight</item>
+        <item name="android:layout_marginRight">@dimen/radioButtonMarginRight</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/radioButtonTextSize</item>
+    </style>
+    <!-- The style of the displayed images -->
+    <style name="imageViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/imagePadding</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <!-- The style of the groups of radio buttons. -->
+    <style name="radioGroupStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">@dimen/imagePadding</item>
+        <item name="android:layout_marginLeft">@dimen/radioGroupMarginleft</item>
+    </style>
+    <!-- The style of the check boxes. -->
+    <style name="checkBoxStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/radio_bk_color</item>
+        <item name="android:buttonTint">@color/radio_color</item>
+        <item name="android:layout_marginRight">@dimen/radioButtonMarginRight</item>
+    </style>
+    <!-- The style of the edit text view -->
+    <style name="editTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:paddingLeft">@dimen/editTextPaddingLeft</item>
+        <item name="android:layout_margin">@dimen/radioGroupMarginleft</item>
+    </style>
+    <!-- The style of the Submit and Reset buttons. -->
+    <style name="buttonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+</resources>

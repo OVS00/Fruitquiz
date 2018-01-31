@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Quiz project</string>
+    <string name="title">- A little fruit quiz -</string>
+    <string name="questionTypeSingleText">\u2588  Choose the fruit in the image</string>
+    <string name="questionTypeMultiText">\u2588  Tick the boxes of the fruits in the image</string>
+    <string name="questionTypeOpenText">\u2588  Write down the name of the fruit in the image</string>
+    <string name="fig">fig</string>
+    <string name="apple">apple</string>
+    <string name="blueberry">blueberry</string>
+    <string name="plum">plum</string>
+    <string name="pear">pear</string>
+    <string name="peach">peach</string>
+    <string name="papaya">papaya</string>
+    <string name="fruitNameHere">Write fruit name here</string>
+    <string name="persimmon">persimmon</string>
+    <string name="banana">banana</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="answerCorrect">You answered correctly</string>
+    <string name="question">question</string>
+    <string name="questions">questions</string>
+    <string name="ofMaxQuestions">/6\u0020</string>
+
+</resources>

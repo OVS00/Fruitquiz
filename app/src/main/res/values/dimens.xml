@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="headerTextSize">24sp</dimen>
+    <dimen name="questionTextSize">18sp</dimen>
+    <dimen name="questionMarginTop">18dp</dimen>
+    <dimen name="questionMarginRight">4dp</dimen>
+    <dimen name="imagePadding">16dp</dimen>
+    <dimen name="radioPadRight">4dp</dimen>
+    <dimen name="radioButtonTextSize">12sp</dimen>
+    <dimen name="radioButtonMarginRight">8dp</dimen>
+    <dimen name="headerMargin">32dp</dimen>
+    <dimen name="headerPaddinLeft">48dp</dimen>
+    <dimen name="radioGroupMarginleft">8dp</dimen>
+    <dimen name="editTextPaddingLeft">24dp</dimen>
+</resources>
