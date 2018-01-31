@@ -17,8 +17,8 @@
     <string name="submit">Submit</string>
     <string name="reset">Reset</string>
     <string name="answerCorrect">You answered correctly</string>
-    <string name="question">question</string>
-    <string name="questions">questions</string>
-    <string name="ofMaxQuestions">/6\u0020</string>
+    <string name="question">\u0020question\u0020</string>
+    <string name="questions">\u0020questions\u0020</string>
+    <string name="ofMaxQuestions">\u0020out of 6\u0020</string>
 
 </resources>

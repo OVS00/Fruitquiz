@@ -78,10 +78,12 @@ public class MainActivity extends AppCompatActivity {
      */
     public void submitResults (View view){
         Context context = getApplicationContext();
+
         String text = getString(R.string.answerCorrect)+ " " + calculateScore();
         if (calculateScore() == 1){
-              text+=getString(R.string.ofMaxQuestions) + getString(R.string.question);
-        }else text+=getString(R.string.ofMaxQuestions) + getString(R.string.questions);
+              text+=getString(R.string.question) + getString(R.string.ofMaxQuestions);
+        }else text+=getString(R.string.questions) + getString(R.string.ofMaxQuestions);
+
         int duration = Toast.LENGTH_LONG;
         Toast toast = Toast.makeText(context,text,duration);
         toast.show();
