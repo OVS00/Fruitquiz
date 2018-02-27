@@ -39,10 +39,11 @@ public class MainActivity extends AppCompatActivity {
         question6Check3 = findViewById(R.id.q6cb3);
         question6Check4 = findViewById(R.id.q6cb4);
     }
-   /*
-   /  This method verifies each answer and increments the score integer
-   /  if the answer is correct. Returns the score counter.
-   */
+
+    /*
+    /  This method verifies each possible correct answer and increments the score
+    /  integer if the answer is correct. Returns the score counter.
+    */
     public int calculateScore() {
         int score = 0;
         Editable name = question4FruitName.getText();
@@ -58,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         }
         if (fruitName.equalsIgnoreCase(getString(R.string.peach))) {
             score++;
-                    }
+        }
         if (question5Button1.isChecked()) {
             score++;
         }
@@ -73,25 +74,27 @@ public class MainActivity extends AppCompatActivity {
         }
         return score;
     }
-     /*
-     /  This method displays the results toast when Results button is pressed
-     */
-    public void submitResults (View view){
+
+    /*
+    /  This method displays the results toast when Results button is pressed
+    */
+    public void submitResults(View view) {
         Context context = getApplicationContext();
 
-        String text = getString(R.string.answerCorrect)+ " " + calculateScore();
-        if (calculateScore() == 1){
-              text+=getString(R.string.question) + getString(R.string.ofMaxQuestions);
-        }else text+=getString(R.string.questions) + getString(R.string.ofMaxQuestions);
+        String text = getString(R.string.answerCorrect) + " " + calculateScore();
+        if (calculateScore() == 1) {
+            text += getString(R.string.question) + getString(R.string.ofMaxQuestions);
+        } else text += getString(R.string.questions) + getString(R.string.ofMaxQuestions);
 
         int duration = Toast.LENGTH_LONG;
-        Toast toast = Toast.makeText(context,text,duration);
+        Toast toast = Toast.makeText(context, text, duration);
         toast.show();
     }
+
     /*
     /This method resets results by restarting the activity
      */
-    public void resetResults (View view){
+    public void resetResults(View view) {
         Intent intent = getIntent();
         finish();
         startActivity(intent);
